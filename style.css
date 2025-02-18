@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+#background-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101vw;
+    height: 101vh;
+    object-fit: cover;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    padding-left: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Consolas', monospace;
+    font-size: 50px;
+    margin-top: 20%;
+
+    border: 1px solid white;
+    background-color: black;
+    padding: 2px 5px;
+    display: inline-block;
+}
+
+.socials {
+    color: white;
+    font-family: 'Consolas', monospace;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.socials a:link,
+.socials a:visited,
+.socials a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.socials span {
+    border: 1px solid white;
+    background-color: black;
+    padding: 2px 5px;
+}
+
+.socials span:hover {
+    color: black;
+    background-color: white;
+}
+
+.content {
+    display: inline-block;
+    padding: 5px;
+
+    border: 1px solid white;
+    background-color: black;
+
+    color: white;
+    font-family: 'Consolas', monospace;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+#blurb {
+    display: block;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+.current-work {
+    margin-top: 10px;
+}
+
+.current-work p {
+    display: block;
+}
